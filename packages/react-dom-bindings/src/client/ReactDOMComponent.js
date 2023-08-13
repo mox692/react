@@ -377,6 +377,7 @@ export function trapClickOnNonInteractiveElement(node: HTMLElement) {
 const xlinkNamespace = 'http://www.w3.org/1999/xlink';
 const xmlNamespace = 'http://www.w3.org/XML/1998/namespace';
 
+// MEMO: ここでComponentのProp見て、domの内容を作ってそう(createElementしたり)
 function setProp(
   domElement: Element,
   tag: string,

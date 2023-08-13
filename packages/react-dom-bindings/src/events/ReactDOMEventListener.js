@@ -287,6 +287,7 @@ export function findInstanceBlockingTarget(
   return null;
 }
 
+// MEMO: おっ、なんかイベントの優先度を設定してそう
 export function getEventPriority(domEventName: DOMEventName): EventPriority {
   switch (domEventName) {
     // Used by SimpleEventPlugin:

@@ -7,6 +7,7 @@
  * @flow
  */
 
+// MEMO: おっ、ここでEventListner登録してそうやん
 export function addEventBubbleListener(
   target: EventTarget,
   eventType: string,

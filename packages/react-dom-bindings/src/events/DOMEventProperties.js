@@ -22,6 +22,8 @@ import {enableCreateEventHandleAPI} from 'shared/ReactFeatureFlags';
 export const topLevelEventsToReactNames: Map<DOMEventName, string | null> =
   new Map();
 
+// MEMO: ここにEventの一部が集まっている
+
 // NOTE: Capitalization is important in this list!
 //
 // E.g. it needs "pointerDown", not "pointerdown".

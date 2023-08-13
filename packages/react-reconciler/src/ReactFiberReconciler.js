@@ -254,6 +254,7 @@ export function createContainer(
 ): OpaqueRoot {
   const hydrate = false;
   const initialChildren = null;
+  // MEMO: ここでFiberを作っている
   return createFiberRoot(
     containerInfo,
     tag,

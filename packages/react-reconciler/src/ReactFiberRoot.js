@@ -161,6 +161,7 @@ export function createFiberRoot(
 
   // Cyclic construction. This cheats the type system right now because
   // stateNode is any.
+  // MEMO: hostRootFilerを作る
   const uninitializedFiber = createHostRootFiber(
     tag,
     isStrictMode,

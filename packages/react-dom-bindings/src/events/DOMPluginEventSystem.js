@@ -428,6 +428,7 @@ function addTrappedEventListener(
   isCapturePhaseListener: boolean,
   isDeferredListenerForLegacyFBSupport?: boolean,
 ) {
+  // MEMO: listenerは関数.(eventが発火した際のcallback?)
   let listener = createEventListenerWrapperWithPriority(
     targetContainer,
     domEventName,
